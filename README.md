@@ -1,4 +1,4 @@
-# Aobakwe Mpatane | Portfo responsive portfolio website for Aobakwe Mpatane, showcasing skills, projects, and CV. Built with vanilla HTML, CSS, and JavaScript—no frameworks required.
+# Portfolio website for Aobakwe Mpatane, showcasing skills, projects, and CV. Built with vanilla HTML, CSS, and JavaScript—no frameworks required.
 
 Hosted live on **Vercel** for fast, global access.
 
