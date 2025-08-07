@@ -45,11 +45,13 @@ function renderAbout() {
       <h2 style="font-size:2rem;font-weight:700;color:var(--color-accent);margin-bottom:0.7rem;">About Me</h2>
     </div>
     <div class="about-card-glass">
-      <div class="about-main-row">
-        <!-- You can add about-main-info here if needed -->
-      </div>
-      <div class="about-summary">
-        <p>A results-driven Business Intelligence and Data Analytics student with proven expertise in full-stack development, mobile application development, and custom software solutions. Demonstrated success in building and deploying live financial technology platforms serving 30+ users with 90% success rates. Strong background in web development, mobile app development, database design, and business intelligence with focus on delivering scalable solutions for small and medium enterprises.</p>
+      <div class="about-main-row about-flex-row">
+        <div class="about-avatar">
+          <img src="data/Avatar8.png" alt="Profile Image" />
+        </div>
+        <div class="about-summary">
+          <p>A results-driven Business Intelligence and Data Analytics student with proven expertise in full-stack development, mobile application development, and custom software solutions. Demonstrated success in building and deploying live financial technology platforms serving 30+ users with 90% success rates. Strong background in web development, mobile app development, database design, and business intelligence with focus on delivering scalable solutions for small and medium enterprises.</p>
+        </div>
       </div>
     </div>
   `;

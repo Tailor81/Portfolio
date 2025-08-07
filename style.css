@@ -59,13 +59,55 @@
 
 /* Avatar/profile image remains large */
 .about-avatar img {
-  width: 120px !important;
-  height: 120px !important;
-  max-width: 120px !important;
-  max-height: 120px !important;
+  width: 150px !important;
+  height: 150px !important;
+  max-width: 150px !important;
+  max-height: 150px !important;
   object-fit: cover;
+  object-position: center top;
   border-radius: 50%;
   box-shadow: 0 2px 16px #3b82f650;
+}
+
+@media (max-width: 700px) {
+  .about-avatar img {
+    width: 120px !important;
+    height: 120px !important;
+    max-width: 120px !important;
+    max-height: 120px !important;
+  }
+}
+
+.about-flex-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.about-avatar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-summary {
+  flex: 1 1 0%;
+}
+
+@media (max-width: 700px) {
+  .about-flex-row {
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    text-align: center;
+  }
+  .about-avatar img {
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+  }
 }
 
 :root {
